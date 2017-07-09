@@ -4,7 +4,7 @@ var data,
 	
 function getData() {
 	$.ajax({
-		url: 'ec/data.json',
+		url: 'data.json',
 		type: 'GET',
 		async: false,
 		success: function(response) {
