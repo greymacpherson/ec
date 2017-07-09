@@ -4,7 +4,7 @@ var data,
 	
 function getData() {
 	$.ajax({
-		url: 'http://localhost/eventcloud/data.json?callback=getdata',
+		url: 'http://ec-weather-proxy.appspot.com/forecast/29e4a4ce0ec0068b03fe203fa81d457f/-33.9249,18.4241?delay=5&chaos=0.2',
 		type: 'GET',
 		async: false,
 		success: function(response) {
