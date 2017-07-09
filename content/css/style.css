@@ -1,0 +1,134 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, a, img, small, strong, ol, ul, li, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, figure, figcaption, footer, header, hgroup, menu, nav, section, audio, video {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article, aside, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}
+body {line-height:2.5}
+ol, ul {list-style:none}
+html {-moz-box-sizing: border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+*, *:before, *:after {-moz-box-sizing:inherit;-webkit-box-sizing:inherit;box-sizing:inherit}
+img {width:100%;max-width:100%}
+.row:after, .group:after {content:"";display:table;clear:both}
+.row {width:100%;max-width:100%}
+.row * {-webkit-transition: all 0.2s ease;-moz-transition: all 0.2s ease;transition: all 0.2s ease;-webkit-transform-style: preserve-3d;-moz-transform-style: preserve-3d;transform-style: preserve-3d}
+[class*=m_col], [class*=l_col] {width:100%;float:left}
+
+.c1 {color:#ffca28}
+.c1:hover {color:#fff}
+.b1 {background-color:transparent}
+.b1:hover {background-color:#ffca28}
+.c2 {color:#515151}
+.b2 {background-color:#ccc}
+.b4 {background-color:#d3d3d3}
+.b6 {background-color:#57c1ef;background-color:transparent}
+
+
+.bd1 {border-top:1px dotted rgba(255,255,255,0.38);border-bottom:1px dotted rgba(255,255,255,0.38);}
+
+.abs {position:absolute}
+.rel {position:relative}
+
+.center {margin:0 auto}
+
+.align-center {text-align:center}
+
+.left0 {left:0}
+.right0{right:0}
+.top0 {top:0}
+
+.clear {float:none}
+.left {float:left}
+
+.pointer {cursor:pointer}
+
+.padding1 {padding:1%}
+.padding2 {padding:2%}
+
+.max-width236px {max-width:236px}
+
+.col5 {width:5%}
+.col20 {width:20%}
+.col30 {width:30%}
+.col38 {width:38%}
+.col50 {width:50%}
+.col62 {width:62%}
+.col80 {width:80%}
+.col90 {width:90%}
+
+.none {display:none}
+.block {display:block}
+
+.grow {transition: all .2s ease-in-out; border:0; border-radius:0}
+.grow:hover {transform: scale(1.1); border:3px solid #378acb; border-radius:64px;line-height:0;background-color:rgba(55,138,203,0.38)}
+
+.noselect {-webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none;user-select: none}
+
+@font-face{
+    font-family: "Roboto-Regular";
+    src: url('../fonts/Roboto-Regular.ttf'),
+    url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face{
+    font-family: "Roboto-Light";
+    src: url('../fonts/Roboto-Light.ttf'),
+    url('../fonts/Roboto-Light.ttf');
+}
+
+.roboto-regular  {
+	font-family: "Roboto-regular";
+}
+
+.roboto-light {
+	font-family: "Roboto-Light";
+}
+
+.vw1 {font-size:12px;font-size:1vw}
+.vw2 {font-size:14px;font-size:2vw}
+.vw2 {font-size:16px;font-size:3vw}
+.vw6 {font-size:24px;font-size:6vw}
+
+/* header */
+header {background:url(../img/logo_bg_repeat.png);background-repeat:repeat;background-size:100%}
+.control {height:136px}
+/* /header */
+
+/* panels */
+.slides-container {overflow:hidden}
+.slides {display:none}
+.slider-arrow-left, .slider-arrow-right {padding:1% 0 1% 1%;height:100%;margin-top:0.82%}
+.slider-arrow-left {border-radius: 12px 0 0 12px}
+.slider-arrow-right {border-radius: 0 12px 12px 0}
+.panel {border-radius:12px;border-top: 12px solid #ffca28;border-bottom: 12px solid #ffca28}
+.hot {border-top: 12px solid #dd3b44;border-bottom: 12px solid #dd3b44}
+.cold {border-top: 12px solid #378acb;border-bottom: 12px solid #378acb}
+li:hover {background-color: #b5b5b5}
+article {padding:2%}
+/* /panels */
+
+/* footer */
+hr {margin-top:5%}
+footer {margin-top:2%}
+/* /footer */
+
+@media all and (min-width:760px){
+	.m_col15 {width:15%}
+	.m_col30 {width:30%}
+	.m_col80 {width:80%}
+	
+	.m_vw4_5 {font-size:38px;font-size:4.5vw}
+	
+	article {padding:0 1%}
+}
+
+@media all and (min-width:1200px){
+	.l_col15 {width:15%}
+	.l_col20 {width:20%}
+	.l_col50 {width:50%}
+	.l_col62 {width:62%}
+	
+	.l_aspect20 {padding-bottom:20%}
+	
+	.l_vw1 {font-size:18px;font-size:1vw}
+	.l_vw3_25 {font-size:56px;font-size:3.25vw}
+	
+	.l_none {display:none}
+	.l_block {display:block}
+}
